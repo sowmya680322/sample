@@ -5,7 +5,7 @@ import pickle
 
 
 app=Flask(__name__)
-data=pd.read_csv(r'C:\Users\server\Desktop\Social_Network_Ads.csv')
+data=pd.read_csv('Social_Network_Ads.csv')
 data=data.drop(['User ID'],axis=1)
 
 with open('model.pkl','rb') as model_file:

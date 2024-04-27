@@ -1,0 +1,42 @@
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    background-color: #3CBC8D;
+    transition: 0.5s;
+    outline: none;
+  }select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
+  
+  input[type=number]:focus {
+    border: 3px solid #555;
+  }.button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button {border-radius: 50%;}
+  #rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 50px; 
+  width: 350px;
+  height: 350px;
+  margin: 75px 75px 75px 250px;
+  
+  }
